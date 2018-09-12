@@ -3,8 +3,8 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(kittens){
-  // kittens += 'Ralph';
-  return kittens += "Ralph";
+  kittens = kittens += 'Ralph';
+  return kittens;
 }
 
 function destructivelyPrependKitten(kittens){
