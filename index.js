@@ -3,9 +3,8 @@
 var kittens = ["Milo", "Otis", "Garfield"];
 
 
-// function destructivelyAppendKitten(kittens){
-  kittens += "Ralph" ;
-// }
+var destructivelyAppendKitten = kittens += "Ralph" ;
+ 
 
 function destructivelyPrependKitten(kittens){
   kittens.unshift(name)
