@@ -1,10 +1,10 @@
 // Add your functions and code here
 // Add your functions and code here
-var kittens = ["Milo", "Otis", "Garfield"]
-var name = "Ralph"
+var kittens = ["Milo", "Otis", "Garfield"];
+
 
 function destructivelyAppendKitten(kittens){
-  kittens += 'Ralph';
+  kittens += "Ralph" ;
 }
 
 function destructivelyPrependKitten(kittens){
